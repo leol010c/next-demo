@@ -49,7 +49,7 @@ export default function Component() {
             <div className="grid max-w-[1300px] mx-auto gap-4 lg:gap-6">
               <div className="space-y-4">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
-                  Summer Collection
+                  Leolos Shop
                 </h1>
                 <p className="text-gray-500 dark:text-gray-400">
                   Introducing the latest trends. Shop now and stand out.

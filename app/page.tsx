@@ -22,7 +22,7 @@ export default function Component() {
             className="text-sm font-medium hover:underline underline-offset-4"
             href="#"
           >
-            Features
+            Products
           </Link>
           <Link
             className="text-sm font-medium hover:underline underline-offset-4"

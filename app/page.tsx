@@ -89,8 +89,8 @@ export default function Component() {
                 <div className="grid gap-1">
                   <h3 className="text-lg font-bold">Incredible Comfort</h3>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
-                    This t-shirt is made for all-day wear. It's soft,
-                    breathable, and stylish.
+                    This t-shirt is made for all-day wear. Its soft, breathable,
+                    and stylish.
                   </p>
                 </div>
               </div>
@@ -138,7 +138,7 @@ export default function Component() {
                 </h2>
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                   Embrace the season with our curated collection of summer
-                  fashion. From breezy dresses to cool shorts, we've got
+                  fashion. From breezy dresses to cool shorts, weve got
                   everything you need to make a statement.
                 </p>
               </div>

@@ -7,6 +7,7 @@ import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { CiMountain1 } from "react-icons/ci";
+import Image from "next/image";
 
 export default function Component() {
   return (
@@ -49,7 +50,7 @@ export default function Component() {
             <div className="grid max-w-[1300px] mx-auto gap-4 lg:gap-6">
               <div className="space-y-4">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
-                  Leolos Shop
+                  Leolos Designe Boutique
                 </h1>
                 <p className="text-gray-500 dark:text-gray-400">
                   Introducing the latest trends. Shop now and stand out.
@@ -66,11 +67,11 @@ export default function Component() {
                 </div>
               </div>
             </div>
-            <img
-              alt="Hero"
+            <Image
+              alt="Fashion"
               className="mx-auto aspect-[3/1] overflow-hidden rounded-t-xl object-cover"
-              height="300"
-              src="/placeholder.svg"
+              height="800"
+              src="/fashion.png"
               width="1270"
             />
           </div>

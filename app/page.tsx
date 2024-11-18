@@ -7,11 +7,14 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import Navbar from "@/app/components/navbar";
+import { Provider } from 'react-redux';
+import store from "@/app/features/cart/store";
 
 
 export default function Component() {
     return (
         <>
+        <Provider store={store}>
             <Navbar></Navbar>
 
             <div className="flex justify-center bg-white py-8">
@@ -110,6 +113,7 @@ export default function Component() {
                     </div>
                 </div>
             </footer>
+        </Provider>
         </>
     )
 }

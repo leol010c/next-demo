@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { ScrollArea } from "@/components/ui/scroll-area"
 
-export default function Component() {
+export default function Profile() {
     return (
         <div className="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-md">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

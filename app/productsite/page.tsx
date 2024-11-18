@@ -7,8 +7,17 @@ import Link from "next/link"
 import {SelectValue, SelectTrigger, SelectItem, SelectContent, Select} from "@/components/ui/select"
 import {Button} from "@/components/ui/button"
 import Navbar from "@/app/components/navbar";
+import { useDispatch } from 'react-redux';
+import {addItem} from "@/app/features/cart/shoppingCartSlice";
 
-export default function Component() {
+export default function ProductSite() {
+    const dispatch = useDispatch();
+
+    const handleAddToCart = () => {
+        const productToAdd = { id: 1, name: 'Product Name', price: 9.99 }; // Beispielprodukt
+        dispatch(addItem(productToAdd));
+    };
+
     return (
         <>
             <Navbar></Navbar>
@@ -48,7 +57,7 @@ export default function Component() {
                             </SelectContent>
                         </Select>
                         <div className="flex space-x-4 my-4">
-                            <Button className="bg-black text-white">In den Warenkorb</Button>
+                            <Button className="bg-black text-white" onClick={handleAddToCart}>In den Warenkorb</Button>
                             <Button variant="ghost">
                                 <HeartIcon className="text-black"/>
                             </Button>
